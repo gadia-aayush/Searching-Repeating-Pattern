@@ -45,13 +45,13 @@ The below format must be followed for the successful running of the script:
    - it must be passed as as JSON String.
    - the JSON String, alternatively the dictionary data structure should have the following Key Names::   
     `1. start_timestamp :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15`
-    `2. end_timestamp   :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15`
-    `3. graph_type      :: should be either 1, 2 or 3. [1. for Continuous Output, 2. for Discontinuous Output & 3. for Average of Timestamp's Output]`                          
-    `4. slope_error     :: if 15% error then value of slope_error should be 0.15`
-    `5. point_error     :: if 15% error then value of point_error should be 0.15`
-    `6. slope_weightage :: slope_weightage + point_weightage = 1`
-    `7. point_weightage :: slope_weightage + point_weightage = 1`
-    `8. output_type     :: should be either 1, 2 or 3. [1. for Accuracy Insights, 2. for for Top 5 Accuracy & 3. for All Accuracies]`                       
+    `2. end_timestamp   :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15`  
+    `3. graph_type      :: should be either 1, 2 or 3. [1. for Continuous Output, 2. for Discontinuous Output & 3. for Average of Timestamp's Output]`                         
+    `4. slope_error     :: if 15% error then value of slope_error should be 0.15`  
+    `5. point_error     :: if 15% error then value of point_error should be 0.15`  
+    `6. slope_weightage :: slope_weightage + point_weightage = 1`  
+    `7. point_weightage :: slope_weightage + point_weightage = 1`  
+    `8. output_type     :: should be either 1, 2 or 3. [1. for Accuracy Insights, 2. for for Top 5 Accuracy & 3. for All Accuracies]`                         
                     							
    *** CAUTION: The above Key Names are case-sensitive, so use exactly as written above.***
 
