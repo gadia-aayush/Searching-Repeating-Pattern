@@ -55,7 +55,7 @@ The below format must be followed for the successful running of the script:
     `g. point_weightage :: slope_weightage + point_weightage = 1`    
     `h. output_type     :: should be either 1, 2 or 3. [1. for Accuracy Insights, 2. for for Top 5 Accuracy & 3. for All Accuracies]`
  
-   **CAUTION: The above Key Names are case-sensitive, so use exactly as written above.**
+   ####CAUTION: The above Key Names are case-sensitive, so use exactly as written above.
    
    ---------------------------------------------------------------------------------------------------------------
 
