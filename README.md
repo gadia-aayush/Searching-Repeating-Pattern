@@ -36,12 +36,13 @@
 
 The below format must be followed for the successful running of the script:  
 
-1. **FILE PATH ::**
+1. **File Path ::**
    - it must be a CSV File Path.    
    - it must be passed in the second argument of sys.argv.
    
    ----------------------------------------------------------------------------------------------------------------
-2. **INPUT STRING ::**
+
+2. **Input String ::**
    - it must be passed in the third argument of sys.argv. 
    - it must be passed as as JSON String.
    - **the JSON String, alternatively the dictionary data structure should have the following Key Names::**   
@@ -55,9 +56,10 @@ The below format must be followed for the successful running of the script:
     `h. output_type     :: should be either 1, 2 or 3. [1. for Accuracy Insights, 2. for for Top 5 Accuracy & 3. for All Accuracies]`
  
    **CAUTION: The above Key Names are case-sensitive, so use exactly as written above.**
+   
    ---------------------------------------------------------------------------------------------------------------
 
-3. **OUTPUT STRING ::**
+3. **Output String ::**
    -   it is passed as a JSON String.  
    -   basically the Output is User Choice Dependent. The User is given Choice of Selecting the Output Type.   
    -   On selecting the Output Type as 1 , the User gets to see the Accuracy_Insights; irrespective of the Graph_Type.  
