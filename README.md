@@ -43,7 +43,7 @@ The below format must be followed for the successful running of the script:
 2. Input String ::
    - it must be passed in the third argument of sys.argv. 
    - it must be passed as as JSON String.
-   - the JSON String, alternatively the dictionary data structure should have the following Key Names:: 
+   - the JSON String, alternatively the dictionary data structure should have the following Key Names::  
     1. start_timestamp :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15
     2. end_timestamp   :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15
     3. graph_type	:: should be either 1, 2 or 3. [1. for Continuous Output, 2. for Discontinuous Output & 3. for Average of Timestamp's Output]
