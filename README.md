@@ -19,23 +19,27 @@
 **NOTE:: All the above Outputs are passed by the Script in JSON.**  
 
 
----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 
 ### **PREREQUISITES:**
 
 
-  -	written for LINUX Server.
+  - written for LINUX Server.
   - written in  Python 3.6 .
   - supporting packages required- pandas, numpy, statistics, json & sys. 
 
 
----------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
 
 
 ### **CLIENT-END FULFILMENTS:**
 
   -	The below format must be followed for the successful running of the script:  
-
+  
+  		A) File Path :: 
+					  - it must be a CSV File Path.
+					  - it must be passed in the second argument of sys.argv.  
+					  
 		B) Input String ::
 					  - it must be passed in the third argument of sys.argv. 
 					  - it must be passed as as JSON String.
