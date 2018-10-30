@@ -70,7 +70,14 @@ The below format must be followed for the successful running of the script:
    - On selecting the Output Type as 3, the User gets to see all the Accuracies with their Timestamp Ranges; irrespective of Graph_Type.  
 												
 
--------------------------------------------------------------------------------------------------------------------						
+-------------------------------------------------------------------------------------------------------------------	
+
+### **OUTPUT SAMPLE:**
+  -	Please refer the attached screenshots of the output for reference.
+  
+
+-------------------------------------------------------------------------------------------------------------------	
+
 ### **AUTHORS:**
 
   -	coded by AAYUSH GADIA.
