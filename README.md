@@ -57,10 +57,10 @@ The below format must be followed for the successful running of the script:
 
 
 3. Output String ::
-   - it is passed as a JSON String.
-   - basically the Output is User Choice Dependent. The User is given Choice of Selecting the Output Type. 
-    - On selecting the Output Type as 1 , the User gets to see the Accuracy_Insights; irrespective of the Graph_Type.
-    - On selecting the Output Type as 2 and Graph_Type as any but != 3, the User gets to see the Top 5 Accuracy with no Average Value. Here simply a dictionary of Top 5 Accuracy is returned. Top 5 Accuracy also contains the Timestamp Ranges.
+   -   it is passed as a JSON String.
+   -   basically the Output is User Choice Dependent. The User is given Choice of Selecting the Output Type. 
+    -   On selecting the Output Type as 1 , the User gets to see the Accuracy_Insights; irrespective of the Graph_Type.
+    -   On selecting the Output Type as 2 and Graph_Type as any but != 3, the User gets to see the Top 5 Accuracy with no Average Value. Here simply a dictionary of Top 5 Accuracy is returned. Top 5 Accuracy also contains the Timestamp Ranges.
     - On selecting the Output Type as 2 and Graph_Type as 3, the User gets to see the Top 5 Accuracy along with the Average Value.Both the values are passed into a list. So basically a List is returned with first index containing Top 5 Accuracy & second index containing Average Value. Top 5 Accuracy also contains the Timestamp Ranges.
     - On selecting the Output Type as 3, the User gets to see all the Accuracies with their Timestamp Ranges; irrespective of Graph_Type.
 									
