@@ -36,7 +36,7 @@
 
 > The below format must be followed for the successful running of the script:  
 
-  1. File Path ::  
+  1. `File Path ::  
      - it must be a CSV File Path.    
-     - it must be passed in the second argument of sys.argv.    
+     - `it must be passed in the second argument of sys.argv.`    
 					  
