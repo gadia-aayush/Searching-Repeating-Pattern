@@ -36,46 +36,7 @@
 
 > The below format must be followed for the successful running of the script:  
 
-A) File Path ::  
-  - it must be a CSV File Path.  
-		 - it must be passed in the second argument of sys.argv.    
+  1. File Path ::  
+     - it must be a CSV File Path.    
+     - it must be passed in the second argument of sys.argv.    
 					  
-		B) Input String ::
-					  - it must be passed in the third argument of sys.argv. 
-					  - it must be passed as as JSON String.
-					  - the JSON String, alternatively the dictionary data structure should have the following Key Names:: 
-					  		1) start_timestamp :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15
-					  		2) end_timestamp   :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15
-					  		3) graph_type	     :: should be either 1, 2 or 3.
-                                      #------1. for Continuous Output
-                								      #------2. for Discontinuous Output
-                                      #------3. for Average of Timestamp's Output 
-					  		4) slope_error     :: if 15% error then value of slope_error should be 0.15
-					  		5) point_error     :: if 15% error then value of point_error should be 0.15
-					  		6) slope_weightage :: slope_weightage + point_weightage = 1
-					  		7) point_weightage :: slope_weightage + point_weightage = 1
-					  		8) output_type     :: should be either 1, 2 or 3.
-                    							    #------1. for Accuracy Insights
-                    							    #------2. for Top 5 Accuracy
-                                      #------3. for All Accuracies
-
-							* CAUTION: The above Key Names are case-sensitive, so use exactly as written above.
-
-
-		C) Output String ::
-					  - it is passed as a JSON String.
-					  - basically the Output is User Choice Dependent. The User is given Choice of Selecting the Output Type. 
-					    -- On selecting the Output Type as 1 , the User gets to see the Accuracy_Insights; irrespective of the Graph_Type.
-					    -- On selecting the Output Type as 2 and Graph_Type as any but != 3, the User gets to see the Top 5 Accuracy with no Average Value. Here simply a dictionary of Top 5 Accuracy is returned. Top 5 Accuracy also contains the Timestamp Ranges.
-					    -- On selecting the Output Type as 2 and Graph_Type as 3, the User gets to see the Top 5 Accuracy along with the Average Value.Both the values are passed into a list. So basically a List is returned with first index containing Top 5 Accuracy & second index containing Average Value. Top 5 Accuracy also contains the Timestamp Ranges.
-              
-					    -- On selecting the Output Type as 3, the User gets to see all the Accuracies with their Timestamp Ranges; irrespective of Graph_Type.
-									
-  
-					
-
-						
-### **AUTHORS:**
-
-  -	coded by AAYUSH GADIA.
-
