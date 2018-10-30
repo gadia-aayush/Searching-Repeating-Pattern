@@ -44,14 +44,14 @@ The below format must be followed for the successful running of the script:
    - it must be passed in the third argument of sys.argv. 
    - it must be passed as as JSON String.
    - the JSON String, alternatively the dictionary data structure should have the following Key Names::   
-    `a. start_timestamp :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15`
-    `b. end_timestamp   :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15`  
-    `c. graph_type      :: should be either 1, 2 or 3. [1. for Continuous Output, 2. for Discontinuous Output & 3. for Average of Timestamp's Output]`                       
-    `d. slope_error     :: if 15% error then value of slope_error should be 0.15`  
-    `e. point_error     :: if 15% error then value of point_error should be 0.15`  
-    `f. slope_weightage :: slope_weightage + point_weightage = 1`  
-    `g. point_weightage :: slope_weightage + point_weightage = 1`  
-    `h. output_type     :: should be either 1, 2 or 3. [1. for Accuracy Insights, 2. for for Top 5 Accuracy & 3. for All Accuracies]`                         
+    `a. start_timestamp :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15`  
+    `b. end_timestamp   :: should be in format- "DD-MM-YYYY HRS:MINUTES", eg. 05-01-2018 00:15`   
+    `c. graph_type      :: should be either 1, 2 or 3. [1. for Continuous Output, 2. for Discontinuous Output & 3. for Average of Timestamp's Output]`                        
+    `d. slope_error     :: if 15% error then value of slope_error should be 0.15`    
+    `e. point_error     :: if 15% error then value of point_error should be 0.15`    
+    `f. slope_weightage :: slope_weightage + point_weightage = 1`    
+    `g. point_weightage :: slope_weightage + point_weightage = 1`    
+    `h. output_type     :: should be either 1, 2 or 3. [1. for Accuracy Insights, 2. for for Top 5 Accuracy & 3. for All Accuracies]`                           
                     							
    *** CAUTION: The above Key Names are case-sensitive, so use exactly as written above.***
 
