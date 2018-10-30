@@ -14,9 +14,9 @@
 		      4.  **All Accuracies**    ::  it represents All the Unique Accuracy Values sorted in Descending Order with each Unique Accuracy representing all the Timestamp Range where the same percentage of Accuracy exists.  
           
  
- **NOTE :: It may happen that one particular accuracy percentage exists in more than 1 particular Timestamp Range.**  
+***NOTE :: It may happen that one particular accuracy percentage exists in more than 1 particular Timestamp Range.***  
 
-**NOTE:: All the above Outputs are passed by the Script in JSON.**  
+***NOTE:: All the above Outputs are passed by the Script in JSON.***  
 
 
 -------------------------------------------------------------------------------------------------------------------
@@ -34,11 +34,11 @@
 
 ### **CLIENT-END FULFILMENTS:**
 
-  -	The below format must be followed for the successful running of the script:  
-  
-  		A) File Path :: 
-					  - it must be a CSV File Path.
-					  - it must be passed in the second argument of sys.argv.  
+> The below format must be followed for the successful running of the script:  
+
+A) File Path ::  
+  - it must be a CSV File Path.  
+		 - it must be passed in the second argument of sys.argv.    
 					  
 		B) Input String ::
 					  - it must be passed in the third argument of sys.argv. 
@@ -70,7 +70,9 @@
 					    -- On selecting the Output Type as 2 and Graph_Type as 3, the User gets to see the Top 5 Accuracy along with the Average Value.Both the values are passed into a list. So basically a List is returned with first index containing Top 5 Accuracy & second index containing Average Value. Top 5 Accuracy also contains the Timestamp Ranges.
               
 					    -- On selecting the Output Type as 3, the User gets to see all the Accuracies with their Timestamp Ranges; irrespective of Graph_Type.
-														
+									
+  
+					
 
 						
 ### **AUTHORS:**
